@@ -22,3 +22,5 @@ Remove from the repository those directories that are not necessary for your wor
 [Testing en JavaScript](https://www.softwaretestinghelp.com/jest-testing-tutorial/)
 
 [Jest Tutorial](https://jestjs.io/docs/getting-started)
+
+[Carpeta compartida en drive](https://drive.google.com/drive/folders/1WUgV-dfdrFo9kk1Igg1IbuiJ-LHwJIWE?usp=sharing)
