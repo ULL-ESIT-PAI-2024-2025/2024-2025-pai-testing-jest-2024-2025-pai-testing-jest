@@ -1,0 +1,25 @@
+{
+  "name": "2024-2025-pai-testing-jest-2024-2025-pai-testing-jest",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RIzL8C8z) ## PAI class Presentation Template  ### To be used for works to be exposed in class sessions",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-testing-jest-2024-2025-pai-testing-jest.git"
+  },
+  "author": "Rubén Díaz Marrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-testing-jest-2024-2025-pai-testing-jest/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-testing-jest-2024-2025-pai-testing-jest#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
