@@ -18,8 +18,7 @@
 
 'use strict';
 
-let readlineSync = require('../node_modules/readline-sync/');
-
+const fs = require('fs');
 
 
 /**
@@ -42,12 +41,10 @@ function SequenceOfCollatz(number) {
 
 
 function main() {
-  while (true) {
-      let number = +readlineSync.question("Introduce un número: ");
-      if (Number.isNaN(number)) {
-          break;
-      }
-      console.log(SequenceOfCollatz(number));
+  let dataFileContent = fs.readFileSync('/dev/stdin', 'utf-8').trim();
+  let numbers = dataFileContent.split(' ').map(x => parseInt(x));
+  for (const number of numbers) {
+    console.log(SequenceOfCollatz(number));
   }
 }
 

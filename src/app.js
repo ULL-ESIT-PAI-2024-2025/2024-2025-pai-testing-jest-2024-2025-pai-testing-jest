@@ -1,4 +1,4 @@
 `use strict`;
 
-let msg = "Hello World!"
-console.log(msg);
+let message = 'Hello World';
+console.log(message);
