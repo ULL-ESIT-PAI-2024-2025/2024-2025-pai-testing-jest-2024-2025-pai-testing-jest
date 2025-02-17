@@ -1,6 +1,6 @@
 const  sumModule = require('./sum');
 
-test("suma debería ser llamada correctamente", () => {
+test('sum should be called correctly', () => {
   const spy = jest.spyOn(sumModule, 'sum');
 
   sumModule.sum(2, 3);

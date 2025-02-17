@@ -21,7 +21,7 @@
  * @returns {HTMLButtonElement} The created button element.
 */
 function createButton(label) {
-  const button = document.createElement("button");
+  const button = document.createElement('button');
   button.textContent = label;
   // button.classList.add("btn-primary");
   return button;
